@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "FoodShare - Join the Waitlist",
   description:
     "Share your meals, track your calories, and join the foodie revolution. Be the first to know when FoodShare goes live!",
-    generator: 'v0.dev'
+    icons: {
+      icon: "/logo.png", //path to favicon
+    },
 }
 
 export default function RootLayout({
