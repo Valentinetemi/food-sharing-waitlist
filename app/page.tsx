@@ -22,7 +22,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import WaitlistForm from "@/components/WaitlistForm";
 
-export default function WaitlistPage() {
+function WaitlistPage() {
   const [email, setEmail] = useState("");
   const [ctaEmail, setCtaEmail] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -241,3 +241,5 @@ export default function WaitlistPage() {
       </div>
   );
 }
+
+export default WaitlistPage;
